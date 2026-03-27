@@ -512,5 +512,24 @@
     "COMBAT_NPC_USE",
     "COMBAT_NPC_ON"
   ]
-}
+},
+{
+    "id": "atomic_laser_rifle",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "name": { "str": "Atomic A7 laser rifle" },
+    "description": "A state-of-the-art laser rifle developed by the R&D outfit \"Aerial Labs\".  Initial performance rivaled Rivtech's finest, with rumors flying about corporate skulduggery. This one is a legendary protoype ran off plutonium and is even more efficient.",
+    "weight": "3500 g",
+    "volume": "3 L",
+    "price": "16 kUSD",
+    "price_postapoc": "75 USD",
+    "material": [ "steel", "plastic" ],
+    "color": "yellow",
+    "range": 25,
+    "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 4 },
+    "dispersion": 10,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
+    "ammo_effects": [ "LASER", "INCENDIARY" ],
+	"flags": [ "LEAK_DAM", "MESSY" ]
+  }
 ]

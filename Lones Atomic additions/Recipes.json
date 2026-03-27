@@ -1,0 +1,17 @@
+[
+   {
+    "type": "recipe",
+    "result": "atomic_laser_rifle",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "electronics",
+    "skills_required": [ "gun", 10 ],
+    "difficulty": 8,
+    "time": "30 m",
+    "reversible": true,
+    "autolearn": true,
+	"book_learn": [ [ "textbook_atomic_lab", 5 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "laser_rifle", 1 ] ], [ [ "plut_cell", 100 ] ], [ [ "scrap", 8 ] ] ]
+  }
+]
