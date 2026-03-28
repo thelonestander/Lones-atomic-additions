@@ -1,5 +1,7 @@
-<img width="1536" height="1024" alt="Lones atomic additions" src="https://github.com/user-attachments/assets/9be0d58a-c388-47ba-816b-bfceb32635ee" />
+
+<img width="1536" height="1024" alt="BCO f7e3599e-d5aa-4ec8-b8ca-dcdce90dc214" src="https://github.com/user-attachments/assets/9e8d07af-8c1c-40ee-9e44-10ecb76ca0d4" />
 Photo made by AI.
+
 
 Atomic Additions — Atomic Gear for the apocolypse!
 Atomic Additions expands BN by adding a full suite of battery‑free, atomic gear!
