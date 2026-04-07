@@ -3,10 +3,10 @@
     "type": "profession",
     "id": "lt_atomic_pitchman",
     "name": {
-      "male": "Atomic Pitchman",
+      "male": "Atomic Pitchman R&D",
       "female": "Atomic Pitchwoman"
     },
-    "description": "You were hired to market Rivtech's products on television and were on your way to the studio when the bombs hit. Now you enter the end of the world with nothing but your snazzy clothes and a bag full of plutonium‑powered gadgets.",
+    "description": "You were hired to market Rivtech's products on television and were on your way to the lab when the bombs hit. Now you enter the end of the world with nothing but your snazzy clothes and a bag full of plutonium‑powered gadgets.",
     "points": 3,
 
     "skills": [
@@ -30,7 +30,14 @@
 
         "atomic_electric_blanket",
         "atomic_flashlight",
-        "atomic_vibrator"
+        "atomic_vibrator",
+		"atomic_thermal_socks",
+        "atomic_thermal_suit",
+        "atomic_thermal_gloves",
+		"atomic_thermal_mask",
+		"atomic_jackhammer",
+		"atomic_laptop",
+		"atomic_chainsaw_off"
       ],
 
       "male": [
