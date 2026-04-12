@@ -1,0 +1,10 @@
+[
+ {
+    "type": "item_group",
+    "id": "chem_lab",
+    "items": [
+      { "item": "atomic_minifreezer", "prob": 7 },
+      { "item": "atomic_minifridge", "prob": 7 }
+    ]
+  }
+  ]
