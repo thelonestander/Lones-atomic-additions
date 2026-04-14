@@ -274,24 +274,6 @@
     "use_action": "JACKHAMMER",
     "flags": [ "STAB", "DIG_TOOL", "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM" ]
   },
-
-  {
-    "id": "atomic_electrohack",
-    "type": "TOOL",
-    "category": "tools",
-    "name": { "str": "atomic electrohack" },
-    "description": "A multi‑port hacking device capable of interfacing with most control panels and electronic machines (but not computers). With enough skill, it can crack passwords and bypass security. Powered by an internal atomic battery.",
-    "weight": "114 g",
-    "volume": "500 ml",
-    "price": 40000,
-    "price_postapoc": 500,
-    "to_hit": 1,
-    "bashing": 5,
-    "material": [ "plastic", "aluminum" ],
-    "symbol": ",",
-    "color": "green",
-    "flags": [ "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM" ]
-  },
   {
     "id": "atomic_vibrator",
     "type": "TOOL",
