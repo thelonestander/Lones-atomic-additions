@@ -8,7 +8,7 @@
     },
     "description": "You were hired to market Rivtech's products on television and were on your way to the lab when the bombs hit You had all the extra neat items that had just made their debut.",
     "points": 3,
-
+	"vehicle": "truck_atomic",
     "skills": [
       { "name": "speech", "level": 1 }
     ],
