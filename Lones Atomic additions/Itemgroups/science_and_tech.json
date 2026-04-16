@@ -6,7 +6,6 @@
     "magazine": 100,
     "items": [
       { "item": "atomic_jackhammer", "prob": 10 },
-      { "item": "atomic_electrohack", "prob": 10 },
 	  { "item": "atomic_chainsaw_off", "prob": 10 },
 	  { "item": "atomic_laptop", "prob": 10 }
     ]
