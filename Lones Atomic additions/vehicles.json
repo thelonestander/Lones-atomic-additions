@@ -77,12 +77,12 @@
       {
         "x": 2,
         "y": -1,
-        "parts": [ "frame_nw", "halfboard_nw", "wheel_mount_medium_steerable", "headlight", "wheel_wide_or" ]
+        "parts": [ "frame_nw", "halfboard_nw", "wheel_mount_medium_steerable", "headlight", "hover_repulsor" ]
       },
       {
         "x": 2,
         "y": 2,
-        "parts": [ "frame_ne", "halfboard_ne", "wheel_mount_medium_steerable", "headlight", "wheel_wide_or" ]
+        "parts": [ "frame_ne", "halfboard_ne", "wheel_mount_medium_steerable", "headlight", "hover_repulsor" ]
       },
       {
         "x": -2,
@@ -127,12 +127,12 @@
       {
         "x": -4,
         "y": -1,
-        "parts": [ "frame_vertical", "halfboard_vertical", "wheel_mount_medium", "wheel_wide_or" ]
+        "parts": [ "frame_vertical", "halfboard_vertical", "hover_repulsor" ]
       },
       {
         "x": -4,
         "y": 2,
-        "parts": [ "frame_vertical", "halfboard_vertical_right", "wheel_mount_medium", "wheel_wide_or" ]
+        "parts": [ "frame_vertical", "halfboard_vertical_right", "hover_repulsor" ]
       },
       {
         "x": -5,
@@ -174,7 +174,7 @@
       {
         "x": 0,
         "y": 0,
-        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof", "controls", "dashboard", "vehicle_alarm", "vehicle_clock", "stereo", "horn_car", "vtol_thruster" ]
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof", "controls", "dashboard", "vehicle_alarm", "vehicle_clock", "stereo", "horn_car", "hover_repulsor" ]
       },
       {
         "x": 0,
@@ -311,12 +311,12 @@
       {
         "x": 2,
         "y": -1,
-        "parts": [ "frame_nw", "halfboard_nw", "headlight", "vtol_thruster" ]
+        "parts": [ "frame_nw", "halfboard_nw", "headlight", "hover_repulsor" ]
       },
       {
         "x": 2,
         "y": 2,
-        "parts": [ "frame_ne", "halfboard_ne", "headlight", "vtol_thruster" ]
+        "parts": [ "frame_ne", "halfboard_ne", "headlight", "hover_repulsor" ]
       },
       {
         "x": -2,
@@ -341,7 +341,7 @@
       {
         "x": -3,
         "y": -1,
-        "parts": [ "frame_horizontal", "halfboard_sw", "vtol_thruster" ]
+        "parts": [ "frame_horizontal", "halfboard_sw", "hover_repulsor" ]
       },
       {
         "x": -3,
@@ -356,7 +356,7 @@
       {
         "x": -3,
         "y": 2,
-        "parts": [ "frame_horizontal", "halfboard_se", "vtol_thruster" ]
+        "parts": [ "frame_horizontal", "halfboard_se", "hover_repulsor" ]
       }
     ]
   },
@@ -458,12 +458,12 @@
       {
         "x": 2,
         "y": -1,
-        "parts": [ "frame_nw", "halfboard_nw", "headlight", "vtol_thruster" ]
+        "parts": [ "frame_nw", "halfboard_nw", "headlight", "hover_repulsor" ]
       },
       {
         "x": 2,
         "y": 3,
-        "parts": [ "frame_ne", "halfboard_ne", "headlight", "vtol_thruster" ]
+        "parts": [ "frame_ne", "halfboard_ne", "headlight", "hover_repulsor" ]
       },
       {
         "x": -2,
@@ -493,7 +493,7 @@
       {
         "x": -3,
         "y": -1,
-        "parts": [ "frame_horizontal", "halfboard_sw", "vtol_thruster" ]
+        "parts": [ "frame_horizontal", "halfboard_sw", "hover_repulsor" ]
       },
       {
         "x": -3,
@@ -513,7 +513,7 @@
       {
         "x": -3,
         "y": 3,
-        "parts": [ "frame_horizontal", "halfboard_se", "vtol_thruster" ]
+        "parts": [ "frame_horizontal", "halfboard_se", "hover_repulsor" ]
       }
     ]
   },
@@ -595,12 +595,12 @@
       {
         "x": 2,
         "y": -1,
-        "parts": [ "frame_nw", "halfboard_nw", "headlight", "vtol_thruster" ]
+        "parts": [ "frame_nw", "halfboard_nw", "headlight", "hover_repulsor" ]
       },
       {
         "x": 2,
         "y": 2,
-        "parts": [ "frame_ne", "halfboard_ne", "headlight", "vtol_thruster" ]
+        "parts": [ "frame_ne", "halfboard_ne", "headlight", "hover_repulsor" ]
       },
       {
         "x": -2,
@@ -625,7 +625,7 @@
       {
         "x": -3,
         "y": -1,
-        "parts": [ "frame_horizontal", "halfboard_sw", "vtol_thruster" ]
+        "parts": [ "frame_horizontal", "halfboard_sw", "hover_repulsor" ]
       },
       {
         "x": -3,
@@ -640,7 +640,7 @@
       {
         "x": -3,
         "y": 2,
-        "parts": [ "frame_horizontal", "halfboard_se", "vtol_thruster" ]
+        "parts": [ "frame_horizontal", "halfboard_se", "hover_repulsor" ]
       }
     ]
   },
@@ -722,12 +722,12 @@
       {
         "x": 2,
         "y": -1,
-        "parts": [ "frame_nw", "halfboard_nw", "headlight", "vtol_thruster" ]
+        "parts": [ "frame_nw", "halfboard_nw", "headlight", "hover_repulsor" ]
       },
       {
         "x": 2,
         "y": 2,
-        "parts": [ "frame_ne", "halfboard_ne", "headlight", "vtol_thruster" ]
+        "parts": [ "frame_ne", "halfboard_ne", "headlight", "hover_repulsor" ]
       },
       {
         "x": -2,
@@ -772,12 +772,12 @@
       {
         "x": -4,
         "y": -1,
-        "parts": [ "frame_vertical", "halfboard_vertical", "vtol_thruster" ]
+        "parts": [ "frame_vertical", "halfboard_vertical", "hover_repulsor" ]
       },
       {
         "x": -4,
         "y": 2,
-        "parts": [ "frame_vertical", "halfboard_vertical_right", "vtol_thruster" ]
+        "parts": [ "frame_vertical", "halfboard_vertical_right", "hover_repulsor" ]
       },
       {
         "x": -5,
