@@ -23,5 +23,30 @@
     "price": "700 USD",
     "price_postapoc": "40 USD",
     "copy-from": "atomic_minifridge"
+  },
+  {
+    "type": "GENERIC",
+    "id": "atomic_fridge",
+    "name": { "str": "Atomic fridge" },
+    "description": "A fridge for keeping food cool.  Provides some insulation from outside weather, you hear a hum.",
+    "weight": "31752 g",
+    "to_hit": -8,
+    "color": "light_blue",
+    "symbol": "]",
+    "material": "steel",
+    "volume": "125 L",
+    "bashing": 8,
+    "category": "veh_parts",
+    "price": "600 USD",
+    "price_postapoc": "5 USD"
+  },
+  {
+    "type": "GENERIC",
+    "id": "atomic_freezer",
+    "name": { "str": "Atomic freezer" },
+    "description": "A full size chest freezer, designed as a mobile solution for freezing food.  Provides insulation from the elements, you hear a hum.",
+    "price": "700 USD",
+    "price_postapoc": "40 USD",
+    "copy-from": "atomic_fridge"
   }
   ]
