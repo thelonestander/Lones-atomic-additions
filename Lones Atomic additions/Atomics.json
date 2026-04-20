@@ -538,7 +538,7 @@
     "description": "A small freezer.  When turned on, it will freeze the food inside, preventing its spoilage from advancing further forever! You hear a hum.",
     "epower": 0,
     "size": "75 L",
-    "item": "minifreezer",
+    "item": "atomic_minifreezer",
     "location": "center",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -573,7 +573,7 @@
     "description": "A small fridge.  When turned on, it will cool the food inside, delaying spoilage significanly forever! You hear a hum.",
     "epower": 0,
     "size": "75 L",
-    "item": "minifridge",
+    "item": "atomic_minifridge",
     "location": "center",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -608,7 +608,7 @@
     "description": "A full-sized fridge.  When turned on, it will cool the food inside, delaying spoilage significantly but not completely stopping it forever! You hear a hum.",
     "epower": 0,
     "size": "200 L",
-    "item": "fridge",
+    "item": "atomic_fridge",
     "location": "center",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
@@ -648,7 +648,7 @@
     "description": "A full-sized freezer.  When turned on, it will freeze the food inside, preventing its spoilage from advancing further forever! You hear a hum.",
     "epower": 0,
     "size": "200 L",
-    "item": "freezer",
+    "item": "atomic_freezer",
     "location": "center",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
