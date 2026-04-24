@@ -428,11 +428,30 @@
   ]
 },
 {
+    "id": "recharger_rifle_battery",
+    "type": "MAGAZINE",
+    "category": "battery",
+    "name": { "str": "recharger laser rifle plutonium battery" },
+    "description": "Integrated plutonium battery for the recharger laser rifle. It holds 50 shots and self-charges 1 shot per 2 minutes.",
+    "weight": "750 g",
+    "volume": "500 ml",
+    "price": "50 USD",
+    "material": [ "iron", "plastic" ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": [ "battery" ],
+    "capacity": 50,
+    "relic_data": { "recharge_scheme": [ { "type": "time", "interval": "2 m", "rate": 1 } ] },
+    "reliability": 5,
+    "looks_like": "medium_atomic_battery_cell",
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD" ]
+  },
+  {
     "id": "atomic_laser_rifle",
     "copy-from": "rifle_energy",
     "type": "GUN",
-    "name": { "str": "Atomic A7 laser rifle" },
-    "description": "A state-of-the-art laser rifle developed by the R&D outfit \"Aerial Labs\".  Initial performance rivaled Rivtech's finest, with rumors flying about corporate skulduggery. This one is a legendary protoype ran off plutonium and is even more efficient.",
+    "name": { "str": "recharger laser rifle" },
+    "description": "Intended to reduce burden for military logistics, this laser rifle integrates a plutonium battery and significantly improved its self-charge speed. However, this comes at the cost of severely reduced battery capacity, and the rifle cannot be recharged by external means.",
     "weight": "3500 g",
     "volume": "3 L",
     "price": "16 kUSD",
@@ -441,10 +460,12 @@
     "color": "yellow",
     "range": 25,
     "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 4 },
+    "ammo": "battery",
     "dispersion": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
+    "magazines": [ [ "battery", [ "recharger_rifle_plutonium_battery" ] ] ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-	"flags": [ "LEAK_DAM", "MESSY" ]
+    "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM", "RADIOACTIVE" ]
   },
   {
     "id": "atomic_holo_cloak",
@@ -506,7 +527,7 @@
       "msg": "The cloak shimmers and emits an intense light-disrupting field.",
       "target": "atomic_acs_74_stealth_cloak_on",
       "active": true,
-      "need_worn": true,
+      "need_worn": true
     },
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "emitter": "emit_shadow_field" } ],

@@ -1,19 +1,4 @@
 [
-   {
-    "type": "recipe",
-    "result": "atomic_laser_rifle",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_RANGED",
-    "skill_used": "electronics",
-    "skills_required": [ "gun", 10 ],
-    "difficulty": 8,
-    "time": "30 m",
-    "reversible": true,
-    "autolearn": true,
-	"book_learn": [ [ "textbook_atomic_lab", 5 ] ],
-    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "components": [ [ [ "laser_rifle", 1 ] ], [ [ "plut_cell", 100 ] ], [ [ "scrap", 8 ] ] ]
-  },
   {
     "type": "recipe",
     "result": "atomic_holo_cloak",
@@ -23,9 +8,9 @@
     "difficulty": 8,
     "time": "2h 30 m",
     "reversible": true,
-	"book_learn": [ [ "recipe_augs", 8 ] ],
+    "book_learn": [ [ "recipe_augs", 8 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-	"using": [ [ "soldering_standard", 50 ] ],
+    "using": [ [ "soldering_standard", 50 ] ],
     "components": [
       [ [ "holo_cloak", 1 ] ],
       [ [ "adhesive", 1, "LIST" ] ],
@@ -36,45 +21,45 @@
     ]
   },
   {
-  "type": "recipe",
-  "result": "atomic_holo_cloak_mk2",
-  "category": "CC_ELECTRONIC",
-  "subcategory": "CSC_ELECTRONIC_TOOLS",
-  "skill_used": "electronics",
-  "skills_required": [ "fabrication", 8 ],
-  "difficulty": 8,
-  "time": "3h 30 m",
-  "reversible": true,
-  "book_learn": [ [ "textbook_atomic_lab", 9 ] ],
-  "qualities": [ { "id": "SCREW", "level": 1 } ],
-  "components": [
-    [ [ "plastic_chunk", 5 ] ],
-    [ [ "adhesive", 1, "LIST" ] ],
-    [ [ "wire_mesh", 2 ] ],
-    [ [ "atomic_holo_cloak", 1 ] ],
-    [ [ "mil_plate", 1 ] ],
-    [ [ "plut_cell", 5 ] ]
-  ]
-},
-{
-  "type": "recipe",
-  "result": "atomic_acs_74_stealth_cloak",
-  "category": "CC_ELECTRONIC",
-  "subcategory": "CSC_ELECTRONIC_TOOLS",
-  "skill_used": "electronics",
-  "skills_required": [ "fabrication", 8 ],
-  "difficulty": 8,
-  "time": "2h 30 m",
-  "reversible": true,
-  "book_learn": [ [ "textbook_atomic_lab", 9 ] ],
-  "qualities": [ { "id": "SCREW", "level": 1 } ],
-  "components": [
-    [ [ "plastic_chunk", 5 ] ],
-    [ [ "adhesive", 1, "LIST" ] ],
-    [ [ "wire_mesh", 2 ] ],
-    [ [ "atomic_holo_cloak", 1 ] ],
-    [ [ "acs_74_stealth_cloak", 1 ] ],
-    [ [ "plut_cell", 5 ] ]
-  ]
-}
+    "type": "recipe",
+    "result": "atomic_holo_cloak_mk2",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "skills_required": [ "fabrication", 8 ],
+    "difficulty": 8,
+    "time": "3h 30 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_atomic_lab", 9 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "plastic_chunk", 5 ] ],
+      [ [ "adhesive", 1, "LIST" ] ],
+      [ [ "wire_mesh", 2 ] ],
+      [ [ "atomic_holo_cloak", 1 ] ],
+      [ [ "mil_plate", 1 ] ],
+      [ [ "plut_cell", 5 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "atomic_acs_74_stealth_cloak",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "skills_required": [ "fabrication", 8 ],
+    "difficulty": 8,
+    "time": "2h 30 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_atomic_lab", 9 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "plastic_chunk", 5 ] ],
+      [ [ "adhesive", 1, "LIST" ] ],
+      [ [ "wire_mesh", 2 ] ],
+      [ [ "atomic_holo_cloak", 1 ] ],
+      [ [ "acs_74_stealth_cloak", 1 ] ],
+      [ [ "plut_cell", 5 ] ]
+    ]
+  }
 ]
