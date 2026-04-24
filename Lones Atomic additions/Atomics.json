@@ -463,7 +463,7 @@
     "ammo": "battery",
     "dispersion": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
-    "magazines": [ [ "battery", [ "recharger_rifle_plutonium_battery" ] ] ],
+    "magazines": [ [ "battery", [ "recharger_rifle_battery" ] ] ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NO_SALVAGE", "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM", "RADIOACTIVE" ]
   },
