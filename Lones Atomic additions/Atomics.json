@@ -290,7 +290,8 @@
    
     "flags": [ "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM" ],
     "use_action": "VIBE"
-  },{
+  },
+  {
     "id": "atomic_laptop",
     "type": "TOOL",
     "category": "tools",
@@ -576,7 +577,7 @@
       { "item": "steel_chunk", "count": [ 8, 13 ] },
       { "item": "scrap", "count": [ 8, 13 ] },
       { "item": "hose", "prob": 50 },
-      { "item": "motor_tiny", "prob": 25 }
+      { "item": "plut_cell", "count": [ 5, 10 ] }
     ],
     "damage_reduction": { "all": 32 }
   },
@@ -611,7 +612,7 @@
       { "item": "steel_chunk", "count": [ 8, 13 ] },
       { "item": "scrap", "count": [ 8, 13 ] },
       { "item": "hose", "prob": 50 },
-      { "item": "motor_tiny", "prob": 25 }
+      { "item": "plut_cell", "count": [ 5, 10 ] }
     ],
     "damage_reduction": { "all": 32 }
   },
@@ -651,7 +652,7 @@
       { "item": "cu_pipe", "count": [ 1, 4 ] },
       { "item": "scrap_copper", "count": [ 0, 2 ] },
       { "item": "glass_shard", "count": [ 2, 4 ] },
-      { "item": "motor_tiny", "prob": 25 }
+      { "item": "plut_cell", "count": [ 5, 10 ] }
     ],
     "damage_reduction": { "all": 32 }
   },
@@ -691,7 +692,7 @@
       { "item": "cu_pipe", "count": [ 1, 4 ] },
       { "item": "scrap_copper", "count": [ 0, 2 ] },
       { "item": "glass_shard", "count": [ 2, 4 ] },
-      { "item": "motor_tiny", "prob": 25 }
+      { "item": "plut_cell", "count": [ 5, 10 ] }
     ],
     "damage_reduction": { "all": 32 }
   }

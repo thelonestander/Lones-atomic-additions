@@ -1,0 +1,134 @@
+[
+  {
+    "result": "atomic_thermal_socks",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "rag", 2 ] ],
+      [ [ "e_scrap", 1 ] ],
+      [ [ "plut_cell", 2 ] ]
+    ]
+  },
+
+  {
+    "result": "atomic_thermal_suit",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "atomic_thermal_socks", 1 ] ],
+      [ [ "atomic_thermal_gloves", 1 ] ],
+      [ [ "atomic_thermal_mask", 1 ] ],
+      [ [ "rag", 10 ] ]
+    ]
+  },
+
+  {
+    "result": "atomic_thermal_gloves",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "rag", 2 ] ],
+      [ [ "e_scrap", 2 ] ],
+      [ [ "plut_cell", 2 ] ]
+    ]
+  },
+
+  {
+    "result": "atomic_thermal_mask",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "rag", 1 ] ],
+      [ [ "e_scrap", 1 ] ],
+      [ [ "plut_cell", 2 ] ]
+    ]
+  },
+
+  {
+    "result": "atomic_electric_blanket",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "rag", 10 ] ],
+      [ [ "e_scrap", 5 ] ],
+      [ [ "plut_cell", 4 ] ]
+    ]
+  },
+
+  {
+    "result": "atomic_flashlight",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "e_scrap", 1 ] ],
+      [ [ "plut_cell", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ]
+    ]
+  },
+
+  {
+    "result": "atomic_jackhammer",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "e_scrap", 4 ] ],
+      [ [ "plut cell", 5 ] ],
+      [ [ "plastic_chunk", 5 ] ],
+      [ [ "cable", 4 ] ],
+      [ [ "scrap", 3 ] ]
+    ]
+  },
+
+  {
+    "result": "atomic_vibrator",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "e_scrap", 2 ] ],
+      [ [ "plut_cell", 1 ] ],
+      [ [ "plastic_chunk", 2 ] ]
+    ]
+  },
+
+  {
+    "result": "atomic_laptop",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "e_scrap", 1 ] ],
+      [ [ "plut_cell", 1 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "RAM", 1 ] ]
+    ]
+  },
+
+  {
+    "result": "atomic_military_watch",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "plut_cell", 1 ] ],
+      [ [ "e_scrap", 1 ] ]
+    ]
+  },
+  {
+    "result": "atomic_chainsaw_off",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "processor", 2 ] ],
+      [ [ "e_scrap", 2 ] ],
+      [ [ "chain", 1 ] ]
+    ]
+  },
+  {
+    "result": "atomic_chainsaw_off",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "processor", 2 ] ],
+      [ [ "e_scrap", 2 ] ],
+      [ [ "chain", 1 ] ]
+    ]
+  }
+]
