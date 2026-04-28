@@ -1,0 +1,297 @@
+[
+{
+    "type": "furniture",
+    "abstract": "a_fridge_base",
+    "name": "abstract atomic fridge",
+    "looks_like": "f_fridge",
+    "symbol": "{",
+    "description": "Abstract furniture.  If you see this, something went wrong.",
+    "color": "light_cyan",
+    "move_cost_mod": -1,
+    "coverage": 90,
+    "required_str": -1,
+    "flags": [ "CONTAINER", "PLACE_ITEM", "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "atomic_fridge", "count": 1 } ] },
+    "max_volume": "200 L",
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "sheet_metal", "count": [ 1, 4 ] },
+        { "item": "sheet_metal_small", "count": [ 8, 12 ] },
+        { "item": "steel_chunk", "count": [ 0, 3 ] },
+        { "item": "scrap", "count": [ 2, 8 ] },
+        { "item": "cable", "charges": [ 1, 2 ] },
+        { "item": "hose", "count": 1 },
+        { "item": "cu_pipe", "count": [ 2, 4 ] },
+        { "item": "scrap_copper", "count": [ 1, 2 ] },
+        { "item": "plut_cell", "count": [ 5, 10 ] }
+      ],
+      "//": "Variable reduction since might hit more or less material.",
+      "ranged": { "reduction": [ 9, 18 ], "destroy_threshold": 50 }
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "a_fridge_off",
+    "copy-from": "a_fridge_base",
+    "name": "atomic refrigerator (off)",
+    "symbol": "{",
+    "description": "Refrigerate your food with the amazing science of the atom!  It is switched off.",
+    "examine_action": "transform",
+    "transforms_into": "a_fridge",
+    "prompt": "Switch on the atomic fridge.",
+    "message": "You switch on the atomic fridge.",
+    "color": "light_cyan"
+  },
+  {
+    "type": "furniture",
+    "id": "a_fridge",
+    "name": "atomic refrigerator",
+    "copy-from": "a_fridge_base",
+    "symbol": "{",
+    "description": "Refrigerate your food with the amazing science of the atom!  It has no power.",
+    "examine_action": "transform",
+    "transforms_into": "a_fridge_off",
+    "prompt": "Switch off the atomic fridge.",
+    "message": "You switch off the atomic fridge.",
+    "active": [ "charge_watcher", { "min_power": 0, "transform": { "id": "a_fridge_on", "msg": "The atomic fridge starts humming." } } ],
+    "color": "light_cyan"
+  },
+  {
+    "type": "furniture",
+    "id": "a_fridge_on",
+    "name": "atomic refrigerator (on)",
+    "copy-from": "a_fridge_base",
+    "symbol": "{",
+    "description": "Refrigerate your food with the amazing science of the atom!  It is switched on.",
+    "examine_action": "transform",
+    "transforms_into": "a_fridge_off",
+    "prompt": "Switch off the atomic fridge.",
+    "message": "You switch off the atomic fridge.",
+    "color": "light_cyan",
+    "extend": { "flags": [ "FRIDGE" ] },
+    "//": "Please keep steady_consumer to 300 s or more to avoid lag.",
+    "active": [
+      "steady_consumer",
+      { "power": 0, "consume_every": "600 s", "transform": { "id": "a_fridge", "msg": "The atomic fridge shuts down." } }
+    ]
+  },
+  {
+    "type": "furniture",
+    "id": "a_freezer_off",
+    "name": "atomic freezer (off)",
+    "copy-from": "a_fridge_base",
+    "symbol": "{",
+    "description": "Freeze your food with the amazing science of the atom!  It is switched off.",
+    "examine_action": "transform",
+    "transforms_into": "a_freezer",
+    "prompt": "Switch on the atomic freezer.",
+    "message": "You switch on the atomic freezer.",
+    "color": "blue",
+    "deconstruct": { "items": [ { "item": "atomic_freezer", "count": 1 } ] }
+  },
+  {
+    "type": "furniture",
+    "id": "a_freezer",
+    "name": "freezer",
+    "copy-from": "a_fridge_base",
+    "symbol": "{",
+    "description": "Freeze your food with the amazing science of the atom!  It has no power.",
+    "examine_action": "transform",
+    "transforms_into": "a_freezer_off",
+    "prompt": "Switch off the atomic freezer.",
+    "message": "You switch off the atomic freezer.",
+    "active": [ "charge_watcher", { "min_power": 0, "transform": { "id": "a_freezer_on", "msg": "The atomic freezer starts up." } } ],
+    "color": "blue",
+    "deconstruct": { "items": [ { "item": "freezer", "count": 1 } ] }
+  },
+  {
+    "type": "furniture",
+    "id": "a_freezer_on",
+    "name": "atomic freezer (on)",
+    "copy-from": "a_fridge_base",
+    "symbol": "{",
+    "description": "Freeze your food with the amazing science of the atom!  It is switched on.",
+    "examine_action": "transform",
+    "transforms_into": "a_freezer_off",
+    "prompt": "Switch off the atomic freezer.",
+    "message": "You switch off the atomic freezer.",
+    "color": "blue",
+    "extend": { "flags": [ "FREEZER" ] },
+    "deconstruct": { "items": [ { "item": "atomic_freezer", "count": 1 } ] },
+    "//": "Please keep steady_consumer to 300 s or more to avoid lag.",
+    "active": [
+      "steady_consumer",
+      { "power": 0, "consume_every": "600 s", "transform": { "id": "a_freezer", "msg": "The atomic freezer shuts down." } }
+    ]
+  },
+  {
+    "type": "furniture",
+    "abstract": "a_minifridge_base",
+    "copy-from": "f_fridge_base",
+    "name": "abstract minifridge",
+    "looks_like": "minifridge",
+    "symbol": "H",
+    "description": "Abstract furniture.  If you see this, something went wrong.",
+    "color": "light_cyan",
+    "coverage": 30,
+    "deconstruct": { "items": [ { "item": "atomic_minifridge", "count": 1 } ] },
+    "max_volume": "75 L",
+    "extend": { "flags": [ "TRANSPARENT" ] },
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "sheet_metal", "count": [ 0, 3 ] },
+        { "item": "sheet_metal_small", "count": [ 6, 10 ] },
+        { "item": "steel_chunk", "count": [ 0, 2 ] },
+        { "item": "scrap", "count": [ 1, 6 ] },
+        { "item": "cable", "charges": [ 1, 2 ] },
+        { "item": "hose", "count": 1 },
+        { "item": "cu_pipe", "count": [ 1, 3 ] },
+        { "item": "scrap_copper", "count": [ 0, 2 ] },
+        { "item": "plut_cell", "count": [ 5, 10 ] }
+      ],
+      "//": "Variable reduction since might hit more or less material.",
+      "ranged": { "reduction": [ 9, 18 ], "destroy_threshold": 50, "block_unaimed_chance": "25%" }
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "a_minifridge_off",
+    "copy-from": "a_minifridge_base",
+    "name": "grid atomic minifridge (off)",
+    "symbol": "H",
+    "description": "Refrigerate your food with the amazing science of the atom!  It is switched off.",
+    "examine_action": "transform",
+    "transforms_into": "a_minifridge",
+    "prompt": "Switch on the atomic minifridge.",
+    "message": "You switch on the atomic minifridge.",
+    "color": "light_blue"
+  },
+  {
+    "type": "furniture",
+    "id": "a_minifridge",
+    "name": "grid atomic minifridge",
+    "copy-from": "a_minifridge_base",
+    "symbol": "H",
+    "description": "Refrigerate your food with the amazing science of the atom!  It has no power.",
+    "examine_action": "transform",
+    "transforms_into": "a_minifridge_off",
+    "prompt": "Switch off the atomic minifridge.",
+    "message": "You switch off the atomic minifridge.",
+    "active": [ "charge_watcher", { "min_power": 0, "transform": { "id": "a_minifridge_on", "msg": "The minifridge starts up." } } ],
+    "color": "light_blue"
+  },
+  {
+    "type": "furniture",
+    "id": "a_minifridge_on",
+    "name": "grid atomic minifridge (on)",
+    "copy-from": "a_minifridge_base",
+    "symbol": "H",
+    "description": "Refrigerate your food with the amazing science of the atom!  It is switched on.",
+    "examine_action": "transform",
+    "transforms_into": "a_minifridge_off",
+    "prompt": "Switch off the atomic minifridge.",
+    "message": "You switch off the atomic minifridge.",
+    "color": "light_blue",
+    "extend": { "flags": [ "FRIDGE" ] },
+    "//": "Please keep steady_consumer to 300 s or more to avoid lag.",
+    "active": [
+      "steady_consumer",
+      {
+        "power": 0,
+        "consume_every": "600 s",
+        "transform": { "id": "a_minifridge", "msg": "The atomic minifridge shuts down." }
+      }
+    ]
+  },
+  {
+    "type": "furniture",
+    "abstract": "a_minifreezer_base",
+    "name": "abstract minifreezer",
+    "looks_like": "minifreezer",
+    "symbol": "H",
+    "description": "Abstract furniture.  If you see this, something went wrong.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 30,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "CONTAINER", "PLACE_ITEM", "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "atomic_minifreezer", "count": 1 } ] },
+    "max_volume": "75 L",
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "steel_lump", "count": [ 8, 13 ] },
+        { "item": "steel_chunk", "count": [ 8, 13 ] },
+        { "item": "scrap", "count": [ 8, 13 ] },
+        { "item": "hose", "prob": 50 },
+        { "item": "plut_cell", "count": [ 5, 10 ] }
+      ],
+      "//": "Variable reduction since might hit more or less material.",
+      "ranged": { "reduction": [ 9, 18 ], "destroy_threshold": 50, "block_unaimed_chance": "25%" }
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "a_minifreezer_off",
+    "copy-from": "a_minifreezer_base",
+    "name": "atomic minifreezer (off)",
+    "symbol": "H",
+    "description": "Freeze your food with the amazing science of the atom!  It is switched off.",
+    "examine_action": "transform",
+    "transforms_into": "a_minifreezer",
+    "prompt": "Switch on the atomic minfreezer.",
+    "message": "You switch on the atomic minifreezer.",
+    "color": "blue"
+  },
+  {
+    "type": "furniture",
+    "id": "a_minifreezer",
+    "name": "atomic minifreezer",
+    "copy-from": "a_minifreezer_base",
+    "symbol": "H",
+    "description": "Freeze your food with the amazing science of the atom!  It has no power.",
+    "examine_action": "transform",
+    "transforms_into": "a_minifreezer_off",
+    "prompt": "Switch off the atomic minifreezer.",
+    "message": "You switch off the atomic minifreezer.",
+    "active": [
+      "charge_watcher",
+      { "min_power": 0, "transform": { "id": "a_minifreezer_on", "msg": "The atomic minifreezer starts up." } }
+    ],
+    "color": "blue"
+  },
+  {
+    "type": "furniture",
+    "id": "a_minifreezer_on",
+    "name": "atomic minifreezer (on)",
+    "copy-from": "a_minifreezer_base",
+    "symbol": "H",
+    "description": "Freeze your food with the amazing science of the atom!  It is switched on.",
+    "examine_action": "transform",
+    "transforms_into": "a_minifreezer_off",
+    "prompt": "Switch off the atomic minifreezer.",
+    "message": "You switch off the atomic minifreezer.",
+    "color": "blue",
+    "extend": { "flags": [ "FREEZER" ] },
+    "//": "Please keep steady_consumer to 300 s or more to avoid lag.",
+    "active": [
+      "steady_consumer",
+      {
+        "power": 0,
+        "consume_every": "600 s",
+        "transform": { "id": "a_minifreezer", "msg": "The atomic minifreezer shuts down." }
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_gridatomicfridge",
+    "group": "install_atomic_refrigerator",
+    "category": "WORKSHOP",
+    "required_skills": [  ],
+    "time": "10 m",
+    "qualities": [  ],
+    "components": [ [ [ "atomic_fridge", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "a_fridge"
+  },
+  {
+    "type": "construction",
+    "id": "constr_gridatomicminifridge",
+    "group": "install_atomic_minifridge",
+    "category": "WORKSHOP",
+    "required_skills": [  ],
+    "time": "10 m",
+    "qualities": [  ],
+    "components": [ [ [ "atomic_minifridge", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "a_minifridge"
+  },
+  {
+    "type": "construction",
+    "id": "constr_gridatomicminifreezer",
+    "group": "install_atomic_minifreezer",
+    "category": "WORKSHOP",
+    "required_skills": [  ],
+    "time": "10 m",
+    "qualities": [  ],
+    "components": [ [ [ "atomic_minifreezer", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "a_minifreezer"
+  },
+  {
+    "type": "construction",
+    "id": "constr_gridatomicfreezer",
+    "group": "install_atomic_freezer",
+    "category": "WORKSHOP",
+    "required_skills": [  ],
+    "time": "10 m",
+    "qualities": [  ],
+    "components": [ [ [ "atomic_freezer", 1 ] ] ],
+    "pre_note": "Will only work if constructed in/on a building that has an electric grid with a mounted battery.",
+    "pre_special": "check_empty",
+    "post_furniture": "a_freezer"
+  }
+]

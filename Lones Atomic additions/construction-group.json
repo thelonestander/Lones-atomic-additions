@@ -1,0 +1,22 @@
+[
+  {
+    "type": "construction_group",
+    "id": "install_atomic_freezer",
+    "name": "Plug In Atomic Freezer"
+  },
+  {
+    "type": "construction_group",
+    "id": "install_atomic_minifridge",
+    "name": "Plug In Atomic Minifridge"
+  },
+  {
+    "type": "construction_group",
+    "id": "install_atomic_minifreezer",
+    "name": "Plug In Atomic Minifreezer"
+  },
+  {
+    "type": "construction_group",
+    "id": "install_atomic_refrigerator",
+    "name": "Plug In Atomic Minifridge"
+  }
+]
