@@ -72,7 +72,7 @@
     "time": "30 s",
     "components": [
       [ [ "e_scrap", 4 ] ],
-      [ [ "plut cell", 5 ] ],
+      [ [ "plut_cell", 5 ] ],
       [ [ "plastic_chunk", 5 ] ],
       [ [ "cable", 4 ] ],
       [ [ "scrap", 3 ] ]
