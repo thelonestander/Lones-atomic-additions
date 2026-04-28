@@ -13,5 +13,3 @@ Atomic Jackhammer — a heavy-duty demolition tool that never runs out of juice
 Atomic Chainsaw — slice through obstacles with the power of ATOM
 
 Thermal Clothing Line — includes atomic thermal socks, gloves, suit, and blanket — for those long cold winter nights. 
-
-Atomic Electrohack — a hacking tool with infinite power and a glowing green interface, perfect for somone who likes to fet into labs...
