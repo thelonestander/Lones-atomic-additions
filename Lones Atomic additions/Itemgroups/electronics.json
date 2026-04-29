@@ -11,7 +11,8 @@
       [ "atomic_thermal_mask", 10 ],
       [ "atomic_electric_blanket", 10 ],
       [ "atomic_flashlight", 5 ],
-      [ "atomic_vibrator", 10 ]
+      [ "atomic_vibrator", 10 ],
+	  [ "survivor_atomic_lighter", 2 ]
     ]
   }
 ]
