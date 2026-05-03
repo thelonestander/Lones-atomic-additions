@@ -61,7 +61,7 @@
       [ [ "acs_74_stealth_cloak", 1 ] ],
       [ [ "plut_cell", 5 ] ]
     ]
-  }
+  },
   {
     "type": "recipe",
     "result": "atomic_knife_heat",
