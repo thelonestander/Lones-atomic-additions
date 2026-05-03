@@ -130,5 +130,16 @@
       [ [ "e_scrap", 2 ] ],
       [ [ "chain", 1 ] ]
     ]
+  },
+  {
+    "result": "atomic_knife_heat",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "plut_cell", 5 ] ],
+      [ [ "wire_mesh", 2 ] ],
+	  [ [ "e_scrap", 2 ] ]
+    ]
   }
 ]

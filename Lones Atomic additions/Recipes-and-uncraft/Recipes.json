@@ -62,4 +62,24 @@
       [ [ "plut_cell", 5 ] ]
     ]
   }
+  {
+    "type": "recipe",
+    "result": "atomic_knife_heat",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "skills_required": [ "fabrication", 8 ],
+    "difficulty": 8,
+    "time": "2h 30 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_atomic_lab", 9 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "plastic_chunk", 5 ] ],
+      [ [ "adhesive", 1, "LIST" ] ],
+      [ [ "wire_mesh", 2 ] ],
+      [ [ "knife_heat", 1 ] ],
+      [ [ "plut_cell", 5 ] ]
+    ]
+  }
 ]

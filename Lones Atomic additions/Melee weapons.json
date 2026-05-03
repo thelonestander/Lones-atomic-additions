@@ -1,0 +1,28 @@
+[
+  {
+    "type": "TOOL",
+    "id": "atomic_knife_heat",
+    "copy-from": "knife_combat",
+    "name": { "str": "atomic thermoblade" },
+    "description": "This is a knife or dagger with an aftermarket modification to heat the blade.  This one is a bit more refined and a lot more powerful.",
+    "weight": "588 g",
+    "price_postapoc": "1550 cent",
+    "use_action": "HOTPLATE",
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 30 ] ],
+    "//": "Roughly +25% fire damage",
+    "attacks": [
+      {
+        "id": "THRUST",
+        "to_hit": 1,
+        "damage": {
+          "values": [
+            { "damage_type": "bash", "amount": 6 },
+            { "damage_type": "stab", "amount": 25 },
+            { "damage_type": "heat", "amount": 15 }
+          ]
+        }
+      }
+    ],
+    "flags": [ "STAB", "SHEATH_KNIFE", "LEAK_DAM", "RADIOACTIVE" ]
+  }
+]
