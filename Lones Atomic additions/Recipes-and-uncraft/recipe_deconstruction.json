@@ -141,5 +141,16 @@
       [ [ "wire_mesh", 2 ] ],
 	  [ [ "e_scrap", 2 ] ]
     ]
+  },
+  {
+    "result": "atomic_sword_heat",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "plastic_chunk", 5 ] ],
+      [ [ "plut_cell", 5 ] ],
+      [ [ "wire_mesh", 4 ] ],
+	  [ [ "e_scrap", 4 ] ]
+    ]
   }
 ]

@@ -505,7 +505,7 @@
   {
     "id": "atomic_acs_74_stealth_cloak",
     "type": "TOOL_ARMOR",
-    "name": { "str": "Atomic ACS-74 stealth cloak" },
+    "name": { "str": "atomic ACS-74 stealth cloak" },
     "description": "An experimental cloak with a destructive interference system that will create pitch-black darkness around you when powered and worn.  Creatures that can see in the dark will still spot you, but it will fool most things.  A network of miniature alphavolatics make it self-charging but only able to sustain short bursts of use.  Activate to turn it on.",
     "weight": "1556 g",
     "volume": "3 L",
@@ -540,7 +540,7 @@
     "id": "atomic_acs_74_stealth_cloak_on",
     "copy-from": "atomic_acs_74_stealth_cloak",
     "type": "TOOL_ARMOR",
-    "name": { "str": "Atomic ACS-74 stealth cloak (on)", "str_pl": "Atomic ACS-74 stealth cloaks (on)" },
+    "name": { "str": "atomic ACS-74 stealth cloak (on)", "str_pl": "atomic ACS-74 stealth cloaks (on)" },
     "description": "An experimental cloak with a destructive interference system, creating pitch-black darkness around you.  Creatures that can see in the dark will still spot you, but it will fool most things. Due to your modification it runs on the power of the atom! There is a slight hum.",
     "revert_to": "atomic_acs_74_stealth_cloak",
     "extend": { "flags": [ "COMBAT_NPC_ON", "LEAK_DAM" ] },

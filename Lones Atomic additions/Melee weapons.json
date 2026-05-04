@@ -24,5 +24,31 @@
       }
     ],
     "flags": [ "STAB", "SHEATH_KNIFE", "LEAK_DAM", "RADIOACTIVE" ]
+  },
+  {
+    "type": "TOOL",
+    "id": "atomic_sword_heat",
+    "copy-from": "sword_metal",
+    "name": { "str": "atomic thermo sword" },
+    "description": "This is a sword with an aftermarket modification to heat the blade. Not super sharp but does hella heat damage.",
+    "weight": "588 g",
+    "price_postapoc": "1550 cent",
+    "use_action": "HOTPLATE",
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 30 ] ],
+    "//": "Roughly +25% fire damage",
+    "attacks": [
+      {
+        "id": "THRUST",
+        "to_hit": 1,
+        "damage": {
+          "values": [
+            { "damage_type": "bash", "amount": 6 },
+            { "damage_type": "stab", "amount": 35 },
+            { "damage_type": "heat", "amount": 25 }
+          ]
+        }
+      }
+    ],
+    "flags": [ "STAB", "SHEATH_SWORD", "LEAK_DAM", "RADIOACTIVE" ]
   }
 ]
