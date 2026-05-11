@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "lones cata++ patchmod",
+    "name": "<color_yellow>Lones Cata++ patchmod</color>",
+    "authors": [ "Thelonestander" ],
+    "maintainers": [ "Thelonestander" ],
+    "description": "Patch mod for acs stealth cloak to be used for cata++.",
+    "category": "content",
+    "dependencies": [ "bn", "Cata++" ]
+  }
+]

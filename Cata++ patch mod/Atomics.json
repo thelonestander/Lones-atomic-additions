@@ -1,0 +1,46 @@
+[
+  {
+    "id": "atomic_acs_74_stealth_cloak",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "atomic ACS-74 stealth cloak" },
+    "description": "An experimental cloak with a destructive interference system that will create pitch-black darkness around you when powered and worn.  Creatures that can see in the dark will still spot you, but it will fool most things.  A network of miniature alphavolatics make it self-charging but only able to sustain short bursts of use.  Activate to turn it on.",
+    "weight": "1556 g",
+    "volume": "3 L",
+    "price": "84000 USD",
+    "price_postapoc": "84 USD",
+    "to_hit": -1,
+    "phase": "solid",
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "optical_cloak",
+    "color": "light_gray",
+    "covers": [ "torso", "head", "arms", "legs" ],
+    "coverage": 75,
+    "encumbrance": 15,
+    "warmth": 15,
+    "material_thickness": 1,
+    "environmental_protection": 4,
+    "use_action": {
+      "type": "transform",
+      "msg": "The cloak shimmers and emits an intense light-disrupting field.",
+      "target": "atomic_acs_74_stealth_cloak_on",
+      "active": true,
+      "need_worn": true
+    },
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "emitter": "emit_shadow_field" } ],
+      "recharge_scheme": [ { "type": "time", "interval": "1 m", "rate": 1 } ]
+    },
+    "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "COMBAT_NPC_USE", "ALLOWS_TAIL_SNAKE" ]
+  },
+  {
+    "id": "atomic_acs_74_stealth_cloak_on",
+    "copy-from": "atomic_acs_74_stealth_cloak",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "atomic ACS-74 stealth cloak (on)", "str_pl": "atomic ACS-74 stealth cloaks (on)" },
+    "description": "An experimental cloak with a destructive interference system, creating pitch-black darkness around you.  Creatures that can see in the dark will still spot you, but it will fool most things. Due to your modification it runs on the power of the atom! There is a slight hum.",
+    "revert_to": "atomic_acs_74_stealth_cloak",
+    "extend": { "flags": [ "COMBAT_NPC_ON", "LEAK_DAM" ] },
+    "use_action": { "target": "atomic_acs_74_stealth_cloak", "msg": "The cloak beeps and powers down.", "type": "transform" }
+  }
+]
