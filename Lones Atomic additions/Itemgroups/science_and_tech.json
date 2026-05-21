@@ -11,5 +11,12 @@
 	  { "item": "atomic_fridge", "prob": 2 },
 	  { "item": "atomic_freezer", "prob": 2 }
     ]
+  },
+   {
+    "type": "item_group",
+    "id": "books_bank_vault",
+    "items": [
+      [ "recipe_food_irradiator", 5 ]
+    ]
   }
 ]

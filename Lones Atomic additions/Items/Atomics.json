@@ -520,5 +520,20 @@
     "charges_per_use": 1,
     "use_action": [ { "type": "firestarter", "moves": 50 } ],
     "flags": [ "FIRESTARTER" ]
+  },
+  {
+    "id": "food_irradiator",
+    "type": "TOOL",
+    "name": { "str": "food irradiator" },
+    "description": "This is a portable version of the food irradiator, used to sterilize fruits and vegetables.  It has a set of plutonium rods emitting a steady stream of ionizing radiation, and requires no additional power source.",
+    "weight": "12000 g",
+    "volume": "7500 ml",
+    "price": "5000 USD",
+    "to_hit": -3,
+    "bashing": 12,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "red",
+    "flags": [ "LEAK_DAM", "RADIOACTIVE" ]
   }
 ]
