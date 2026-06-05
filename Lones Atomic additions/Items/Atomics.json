@@ -192,6 +192,7 @@
     "material_thickness": 3,
     "environmental_protection": 1,
     "flags": [ "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM", "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS" ],
+	"qualities": [ [ "SLEEP_AID", 1 ] ],
     "use_action": {
       "type": "transform",
       "msg": "You turn the blanket's heating elements on.",
@@ -212,6 +213,7 @@
     "warmth": 90,
     "revert_to": "atomic_electric_blanket",
     "flags": [ "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM", "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS" ],
+	"qualities": [ [ "SLEEP_AID", 1 ] ],
     "use_action": {
       "type": "transform",
       "msg": "You turn the blanket's heating elements off.",
