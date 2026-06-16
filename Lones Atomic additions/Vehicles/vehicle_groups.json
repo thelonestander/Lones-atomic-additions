@@ -13,34 +13,20 @@
     "vehicles": [ [ "hover_car_atomic", 1000 ], [ "hover_suv_atomic", 1000 ], [ "hover_compact_atomic", 300 ], [ "hover_truck_atomic", 300 ] ]
   },
   {
-    "id": "parkinglot",
-    "type": "vehicle_group",
-    "vehicles": [
-      [ "hover_car_atomic", 1000 ],
-      [ "hover_car_sports_atomic", 100 ],
-      [ "hover_suv_atomic", 1000 ],
-	  [ "hover_truck_atomic", 300 ],
-      [ "hover_compact_atomic", 300 ]
-    ]
-  },
-  {
     "id": "afs_lab_cars",
     "type": "vehicle_group",
     "vehicles": [ [ "hover_car_sports_atomic", 10 ] ]
   },
   {
-    "id": "city_vehicles",
     "type": "vehicle_group",
-    "vehicles": [ [ "hover_car_atomic", 1000 ], [ "hover_suv_atomic", 1000 ], [ "hover_compact_atomic", 500 ] ]
-  },
-  {
-    "id": "city_pileup",
-    "type": "vehicle_group",
-    "vehicles": [ [ "hover_car_atomic", 1000 ], [ "hover_suv_atomic", 1000 ], [ "hover_compact_atomic", 300 ] ]
-  },
-  {
-    "id": "highway",
-    "type": "vehicle_group",
-    "vehicles": [ [ "hover_car_atomic", 1500 ], [ "hover_suv_atomic", 1500 ], [ "hover_compact_atomic", 300 ], [ "hover_truck_atomic", 300 ] ]
+    "id": "oa_vg_cs_vehicles",
+    "//": "for cs_car_showroom",
+    "vehicles": [
+      [ "hover_compact_atomic", 90 ],
+      [ "hover_car_sports_atomic", 30 ],
+      [ "hover_suv_atomic", 40 ],
+      [ "hover_car_atomic", 50 ],
+      [ "hover_truck_atomic", 30 ]
+    ]
   }
 ]
