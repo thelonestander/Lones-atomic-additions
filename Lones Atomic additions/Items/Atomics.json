@@ -357,7 +357,6 @@
       "BAROMETER",
       "HYGROMETER"
     ],
-    "coverage": 15,
     "symbol": "[",
     "use_action": [ "PORTABLE_GAME", "WEATHER_TOOL" ]
   },
