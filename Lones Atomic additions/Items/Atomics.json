@@ -532,7 +532,7 @@
   {
     "id": "atomic_thermos_1qt",
     "copy-from": "canteen",
-    "type": "ARMOR",
+    "type": "CONTAINER",
     "name": "Atomic 1-quart thermos",
     "description": "A rugged insulated steel thermos fitted with miniature plutonium heating elements. It keeps food and beverages warm for extended periods.",
     "color": "dark_gray",
@@ -545,7 +545,7 @@
   {
     "id": "atomic_thermos_2_5qt",
     "copy-from": "canteen",
-    "type": "ARMOR",
+    "type": "CONTAINER",
     "name": "Atomic 2.5-quart thermos",
     "description": "A large insulated steel thermos fitted with miniature plutonium heating elements. Designed to provide hot food and drinks during long operations.",
     "color": "dark_gray",
