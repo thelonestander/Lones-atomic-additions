@@ -311,7 +311,7 @@
         "active": true
       }
     ],
-    "flags": [ "WATCH", "NO_UNLOAD", "NO_RELOAD","DIGITAL_STORAGE", "DIGITAL_READER" ]
+    "flags": [ "WATCH", "NO_UNLOAD", "NO_RELOAD", "DIGITAL_STORAGE", "DIGITAL_READER" ]
   },
 
   {
