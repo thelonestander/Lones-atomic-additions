@@ -537,7 +537,6 @@
     "description": "A rugged insulated steel thermos fitted with miniature plutonium heating elements. It keeps food and beverages warm for extended periods.",
     "color": "dark_gray",
     "material": "hardsteel",
-    "material_thickness": 1,
     "contains": "1 L",
     "qualities": [ [ "BOIL", 1 ], [ "CONTAIN", 1 ] ],
     "use_action": "HOTPLATE"
@@ -550,7 +549,6 @@
     "description": "A large insulated steel thermos fitted with miniature plutonium heating elements. Designed to provide hot food and drinks during long operations.",
     "color": "dark_gray",
     "material": "hardsteel",
-    "material_thickness": 1,
     "contains": "2500 ml",
     "qualities": [ [ "BOIL", 1 ], [ "CONTAIN", 1 ] ],
     "use_action": "HOTPLATE"
