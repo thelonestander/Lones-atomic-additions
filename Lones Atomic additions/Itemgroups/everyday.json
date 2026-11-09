@@ -1,0 +1,10 @@
+[
+  {
+    "type": "item_group",
+    "id": "everyday_gear",
+    "items": [
+      [ "atomic_thermos_1qt", 5 ],
+      [ "atomic_thermos_2_5qt", 4 ]
+    ]
+  }
+  ]
