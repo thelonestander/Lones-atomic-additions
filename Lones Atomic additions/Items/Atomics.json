@@ -529,7 +529,6 @@
     "color": "red",
     "flags": [ "LEAK_DAM", "RADIOACTIVE" ]
   },
-  [
   {
     "id": "atomic_thermos_1qt",
     "copy-from": "canteen",
@@ -556,5 +555,4 @@
     "qualities": [ [ "BOIL", 1 ], [ "CONTAIN", 1 ] ],
     "use_action": "HOTPLATE"
   }
-]
 ]
