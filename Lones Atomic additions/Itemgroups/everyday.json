@@ -4,7 +4,8 @@
     "id": "everyday_gear",
     "items": [
       [ "atomic_thermos_1qt", 5 ],
-      [ "atomic_thermos_2_5qt", 4 ]
+      [ "atomic_thermos_2_5qt", 4 ],
+	  [ "atomic_wrist_comp_budget", 10 ]
     ]
   }
   ]

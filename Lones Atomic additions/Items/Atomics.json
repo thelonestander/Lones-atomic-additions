@@ -552,5 +552,147 @@
     "contains": "2500 ml",
     "qualities": [ [ "BOIL", 1 ], [ "CONTAIN", 1 ] ],
     "use_action": "HOTPLATE"
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "atomic_wrist_comp_budget",
+    "looks_like": "game_watch",
+    "name": { "str": "atomic wrist computer" },
+    "category": "clothing",
+    "volume": "250 ml",
+    "description": "A fancy atomic wrist-mounted computer, with a menagerie of useful features, such as SD reading, a built-in thermometer, and even a radiation monitor. Good thing it never dies due to its atomic battery.",
+    "weight": "112 g",
+    "to_hit": -1,
+    "color": "light_gray",
+    "covers": [ "hand_either" ],
+    "coverage": 15,
+    "charges_per_use": 0,
+    "price": "60 USD",
+    "price_postapoc": "1 USD",
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "item_vars": {
+      "digital_content": "digital_content_reader",
+      "digital_reader_ports": "USB,SD,HARD_DRIVE"
+    },
+    "use_action": [
+      {
+        "type": "transform",
+        "target": "atomic_wrist_comp_budget_flashlight",
+        "msg": "You activate the atomic flashlight.",
+        "active": true,
+        "need_charges": 0,
+        "menu_text": "Turn on atomic flashlight"
+      },
+      {
+        "type": "train_skill",
+        "training_msg": "You update software and check logs, improving your understanding slightly.",
+        "training_skill": "computer",
+        "training_skill_min_level": 0,
+        "training_skill_xp": 8,
+        "training_skill_max_level": 6,
+        "training_skill_interval": 12,
+        "training_skill_xp_chance": 90
+      },
+      "WEATHER_TOOL",
+      "CAMERA",
+      {
+        "type": "transform",
+        "target": "atomic_wrist_comp_budget_music",
+        "msg": "You put in the earbuds and start listening to music.",
+        "active": true,
+        "moves": 200,
+        "need_charges": 0,
+        "transform_charges": 0,
+        "internal_name": "music_player",
+        "menu_text": "Listen to the atomic music"
+      },
+      "PORTABLE_GAME",
+      "EINKTABLETPC",
+      "RADGLOVE"
+    ],
+    "flags": [
+      "WATCH",
+      "ALARMCLOCK",
+      "WATER_FRIENDLY",
+      "BELTED",
+      "STURDY",
+      "ALLOWS_NATURAL_ATTACKS",
+      "OVERSIZE",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "THERMOMETER",
+      "FANCY",
+      "DIGITAL_STORAGE",
+      "DIGITAL_READER"
+    ]
+  },
+  {
+    "id": "atomic_wrist_comp_budget_music",
+    "copy-from": "atomic_wrist_comp_budget",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "atomic wrist computer - music",
+      "str_pl": "atomic wrist computers - music"
+    },
+    "description": "This wrist computer is playing music from the 50's, steadily raising your morale. You can't hear anything else while you're listening.",
+    "revert_to": "atomic_wrist_comp_budget",
+    "use_action": [
+      "MP3_ON",
+      "EINKTABLETPC"
+    ],
+    "flags": [
+      "WATCH",
+      "WATER_FRIENDLY",
+      "BELTED",
+      "STURDY",
+      "ALLOWS_NATURAL_ATTACKS",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "ALARMCLOCK",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "THERMOMETER",
+      "FANCY",
+      "DIGITAL_STORAGE",
+      "DIGITAL_READER"
+    ]
+  },
+  {
+    "id": "atomic_wrist_comp_budget_flashlight",
+    "copy-from": "atomic_wrist_comp_budget",
+    "type": "TOOL_ARMOR",
+    "name": {
+      "str": "atomic wrist computer - flashlight",
+      "str_pl": "atomic wrist computers - flashlight"
+    },
+    "revert_to": "atomic_wrist_comp_budget",
+    "use_action": [
+      "EINKTABLETPC",
+      {
+        "type": "transform",
+        "target": "atomic_wrist_comp_budget",
+        "msg": "You deactivate the flashlight.",
+        "menu_text": "Turn off flashlight"
+      }
+    ],
+    "flags": [
+      "WATCH",
+      "WATER_FRIENDLY",
+      "BELTED",
+      "STURDY",
+      "ALLOWS_NATURAL_ATTACKS",
+      "OVERSIZE",
+      "LIGHT_20",
+      "CHARGEDIM",
+      "TRADER_AVOID",
+      "ALARMCLOCK",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "THERMOMETER",
+      "FANCY",
+      "DIGITAL_STORAGE",
+      "DIGITAL_READER"
+    ]
   }
 ]
