@@ -1,6 +1,6 @@
 
-<img width="1536" height="1024" alt="BCO f7e3599e-d5aa-4ec8-b8ca-dcdce90dc214" src="https://github.com/user-attachments/assets/9e8d07af-8c1c-40ee-9e44-10ecb76ca0d4" />
-Photo made by AI.
+<img width="1200" height="1200" alt="fb7b9f55-98d6-4696-8200-87644eb91311" src="https://github.com/user-attachments/assets/4e76ebc7-886d-4671-bbd3-8159f2cf25bb" />
+
 
 ASK FOR PERMISSION TO USE OR EDIT OR COPY ANYTHING IN THIS MOD OR MY OTHER MODS I DO NOT WANT TO DMCA ANYONE
 
